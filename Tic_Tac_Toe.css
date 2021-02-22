@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#main{
+  height: 100vh;
+  background-color: #F2EFE9;
+}
+
+#modal {
+  background-color: #F2EFE9;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#title-1{
+  font-size: 20vh;
+  color: #A64F3C;
+  text-align: center;
+}
+
+#subtitle{
+  font-size: 15vh;
+  color: #D9936A;
+  text-align: center;
+}
+
+#btn-start{
+  font-size: 10vh;
+  padding: 3vh;
+  border: 0.5vh #A64F3C solid;
+  border-radius: 3vh;
+  background-color: white;
+  color: #A64F3C
+}
+
+
+#title-2{
+  height: 11vh;
+  font-size: 9vh;
+  color: #A64F3C;
+  text-align: center;
+}
+
+#winner{
+  height: 9vh;
+  font-size: 7vh;
+  color: #D9936A;
+  text-align: center;
+}
+
+#game-board-container{
+  background-color: #A6A397;
+  margin: 0 auto;
+  width: 70vh;
+  height: 70vh;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 5vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.space-board{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #F2EFE9;
+  width: 20vh;
+  height: 20vh;
+
+  color:#3B4034;
+  font-size: 18vh;
+}
+
+.btn-container{
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#btn-reset{
+  font-size: 5vh;
+  padding: 1vh;
+  
+  border: 0.3vh #A64F3C solid;
+  border-radius: 2vh;
+  background-color: white;
+  color: #A64F3C
+}
